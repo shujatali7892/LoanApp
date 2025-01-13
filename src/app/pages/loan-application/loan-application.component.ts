@@ -3,11 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { ApiResponseModel, Application, Loan } from '../../models/application.model';
 import { JsonpInterceptor } from '@angular/common/http';
 import { MasterService } from '../../service/master.service';
+import { ApplicationListComponent } from '../application-list/application-list.component';
 
 @Component({
   selector: 'app-loan-application',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule,ApplicationListComponent],
   templateUrl: './loan-application.component.html',
   styleUrl: './loan-application.component.css'
 })
