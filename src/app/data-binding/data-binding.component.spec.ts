@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LoanApplicationComponent } from './loan-application.component';
+import { DataBindingComponent } from './data-binding.component';
 
-describe('LoanApplicationComponent', () => {
-  let component: LoanApplicationComponent;
-  let fixture: ComponentFixture<LoanApplicationComponent>;
+describe('DataBindingComponent', () => {
+  let component: DataBindingComponent;
+  let fixture: ComponentFixture<DataBindingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LoanApplicationComponent]
+      imports: [DataBindingComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LoanApplicationComponent);
+    fixture = TestBed.createComponent(DataBindingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
